@@ -12,6 +12,8 @@
 		C172A7821F91EB980036CA90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C172A7801F91EB980036CA90 /* Main.storyboard */; };
 		C172A7841F91EB980036CA90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C172A7831F91EB980036CA90 /* Assets.xcassets */; };
 		C172A7871F91EB980036CA90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C172A7851F91EB980036CA90 /* LaunchScreen.storyboard */; };
+		C172A78F1F91EBE50036CA90 /* Button（新規登録）.png in Resources */ = {isa = PBXBuildFile; fileRef = C172A78E1F91EBE50036CA90 /* Button（新規登録）.png */; };
+		C172A7911F91EC680036CA90 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C172A7901F91EC680036CA90 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C172A7831F91EB980036CA90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C172A7861F91EB980036CA90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C172A7881F91EB980036CA90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C172A78E1F91EBE50036CA90 /* Button（新規登録）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Button（新規登録）.png"; sourceTree = "<group>"; };
+		C172A7901F91EC680036CA90 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				C172A77C1F91EB980036CA90 /* AppDelegate.swift */,
+				C172A78E1F91EBE50036CA90 /* Button（新規登録）.png */,
 				C172A77E1F91EB980036CA90 /* ViewController.swift */,
+				C172A7901F91EC680036CA90 /* SecondViewController.swift */,
 				C172A7801F91EB980036CA90 /* Main.storyboard */,
 				C172A7831F91EB980036CA90 /* Assets.xcassets */,
 				C172A7851F91EB980036CA90 /* LaunchScreen.storyboard */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C172A78F1F91EBE50036CA90 /* Button（新規登録）.png in Resources */,
 				C172A7871F91EB980036CA90 /* LaunchScreen.storyboard in Resources */,
 				C172A7841F91EB980036CA90 /* Assets.xcassets in Resources */,
 				C172A7821F91EB980036CA90 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C172A7911F91EC680036CA90 /* SecondViewController.swift in Sources */,
 				C172A77F1F91EB980036CA90 /* ViewController.swift in Sources */,
 				C172A77D1F91EB980036CA90 /* AppDelegate.swift in Sources */,
 			);
